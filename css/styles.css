@@ -231,8 +231,113 @@ span{
     margin-top: 1em;
 }
 
-.container-section {
+.contact-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items:unset;
+}
+
+.contact-headings{
+    background-color: #070451;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23090663' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%230b0875' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%230d0986' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%230f0b98' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23110DAA' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 3em;
+    color: #fff;
+}
+
+
+.container-contact {
+    background-color: #070451;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23090663' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%230b0875' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%230d0986' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%230f0b98' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23110DAA' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
     padding: 3em;
     margin: 0 auto;
-    
 }
+
+.container-contact img{
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+}
+
+.contact-form{
+    color: #fff;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.form textarea{
+    height: 150px;
+    background: none;
+    color: #fff;
+    padding: 1.5em;
+    border: 1px solid #fff;
+}
+
+.btn-submit{
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+}
+
+.btn-submit:hover{
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.footer{
+    /* background-color: #070451;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23090663' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%230b0875' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%230d0986' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%230f0b98' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23110DAA' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: aqua;
+}
+
+.footer-content h2{
+    font-size: 3em;
+}
+
+.footer-content h5,
+.sotial-network i{
+    font-size: 1.5em;
+}
+
+.sotial-network{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+}
+
+.sotial-network a{
+    text-decoration: none;
+    color:black
+}
+
